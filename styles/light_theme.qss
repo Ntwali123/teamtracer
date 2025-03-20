@@ -1,28 +1,31 @@
 /* Global Widget Styles */
 QWidget {
     font-size: 14px;
-    color: #333333;
+    color: #333333;  /* Dark text color for light background */
+    background-color: #FFFFFF;  /* White background */
 }
 
 /* Button Styles */
 QPushButton {
-    border: 1px solid #ced4da;
+    border: 1px solid #018af6;  /* Blue border */
     border-radius: 2px;
     padding: 5px 15px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;  /* White background */
+    color: #018af6;  /* Blue text */
     margin-left: 8px;
     margin-right: 8px;
 }
 QPushButton:hover {
-    background-color: #e7e7e7;
+    background-color: #E6F0FF;  /* Light blue hover */
 }
 QPushButton:pressed {
-    background-color: #d7d7d7;
+    background-color: #CCE0FF;  /* Slightly darker blue when pressed */
 }
 
 /* CheckBox Styles */
 QCheckBox {
     spacing: 5px;
+    color: #333333;  /* Dark text */
 }
 QCheckBox::indicator {
     width: 13px;
@@ -30,8 +33,8 @@ QCheckBox::indicator {
     border-radius: 6px;
 }
 QCheckBox::indicator:unchecked {
-    border: 1px solid #d7d7d7;
-    background-color: #ffffff;
+    border: 1px solid #018af6;  /* Blue border */
+    background-color: #FFFFFF;  /* White background */
 }
 QCheckBox::indicator:checked {
     image: url('Icons/icons8-tick-48.png');
@@ -39,21 +42,23 @@ QCheckBox::indicator:checked {
 
 /* ComboBox Styles */
 QComboBox {
-    border: 1px solid #ced4da;
+    border: 1px solid #018af6;  /* Blue border */
     border-radius: 2px;
     padding: 5px 10px;
-    background-color: #ffffff;
-    selection-background-color: #56CCF2;
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
+    selection-background-color: #66B3FF;  /* Light blue selection */
 }
 QComboBox::drop-down {
     subcontrol-origin: padding;
     subcontrol-position: top right;
     width: 25px;
     border-left-width: 1px;
-    border-left-color: #ced4da;
+    border-left-color: #018af6;
     border-left-style: solid;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+    background-color: #E6F0FF;  /* Light blue dropdown */
 }
 QComboBox::down-arrow {
     image: url('Icons/icons8-dropdown-48.png');
@@ -61,132 +66,112 @@ QComboBox::down-arrow {
     height: 16px;
 }
 QComboBox:hover {
-    border: 1px solid #a2a9b1;
+    border: 1px solid #66B3FF;  /* Lighter blue on hover */
 }
 QComboBox::drop-down:hover {
-    background-color: #f5f5f5;
+    background-color: #CCE0FF;  /* Slightly darker blue */
 }
 
 /* Dock Widget Styles */
 QDockWidget {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #D3D3D3;  /* Light gray border */
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #F5F5F5;  /* Off-white background */
 }
 QDockWidget::title {
-    background: #f5f5f5;
+    background: #018af6;  /* Blue title bar */
     padding: 1px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-
+    color: #FFFFFF;  /* White text */
 }
 QDockWidget::close-button, QDockWidget::float-button {
     border: 1px solid transparent;
     border-radius: 5px;
-    background: #f5f5f5;
+    background: #FFFFFF;
 }
 QDockWidget::close-button:hover, QDockWidget::float-button:hover {
-    background: #e7e7e7;
+    background: #E6F0FF;  /* Light blue hover */
 }
 QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
-    background: #d7d7d7;
+    background: #CCE0FF;  /* Slightly darker blue */
 }
 
 /* List and Table Widget Styles */
 QListWidget, QTableWidget {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #D3D3D3;  /* Light gray border */
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
 }
 QListWidget::item, QTableWidget::item {
     padding: 5px;
 }
 QListWidget::item:selected, QTableWidget::item:selected {
-    background-color: #f2f2f2;
-    color: #333333;
+    background-color: #66B3FF;  /* Light blue selection */
+    color: #FFFFFF;  /* White text */
 }
-
 
 /* Menu and MenuBar Styles */
 QMenuBar {
-    background-color: white;
-    border-bottom: 1px solid #d7d7d7;
+    background-color: #F5F5F5;  /* Off-white background */
+    border-bottom: 1px solid #D3D3D3;  /* Light gray border */
 }
 QMenuBar::item {
     padding: 5px 8px;
     border-radius: 2px;
+    color: #333333;  /* Dark text */
 }
 QMenuBar::item:selected {
-    background-color: #e7e7e7;
+    background-color: #018af6;  /* Blue selection */
+    color: #FFFFFF;  /* White text */
 }
 QMenuBar::item:pressed {
-    background-color: #d7d7d7;
+    background-color: #0066CC;  /* Darker blue when pressed */
 }
 
 /* MessageBox Styles */
 QMessageBox {
-    background-color: #ffffff;
-    border: 1px solid #d7d7d7;
+    background-color: #FFFFFF;  /* White background */
+    border: 1px solid #D3D3D3;  /* Light gray border */
+    color: #333333;  /* Dark text */
 }
 
+/* ScrollBar Styles */
 QScrollBar:vertical {
     border: none;
-    background: #F1F1F1;
+    background: #F5F5F5;  /* Off-white background */
     width: 10px;
     margin: 0px;
     border-radius: 0px;
 }
-
 QScrollBar::handle:vertical {
-    background: #C1C1C1;
+    background: #018af6;  /* Blue handle */
     min-height: 20px;
     border-radius: 5px;
 }
-
-QScrollBar::add-line:vertical {
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
     border: none;
     background: none;
     height: 0px;
-    subcontrol-position: bottom;
-    subcontrol-origin: margin;
-}
-
-QScrollBar::sub-line:vertical {
-    border: none;
-    background: none;
-    height: 0px;
-    subcontrol-position: top;
-    subcontrol-origin: margin;
 }
 
 QScrollBar:horizontal {
     border: none;
-    background: #F1F1F1;
+    background: #F5F5F5;  /* Off-white background */
     height: 10px;
     margin: 0px;
     border-radius: 0px;
 }
-
 QScrollBar::handle:horizontal {
-    background: #C1C1C1;
+    background: #018af6;  /* Blue handle */
     min-width: 20px;
     border-radius: 5px;
 }
-
-QScrollBar::add-line:horizontal {
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
     border: none;
     background: none;
     width: 0px;
-    subcontrol-position: right;
-    subcontrol-origin: margin;
-}
-
-QScrollBar::sub-line:horizontal {
-    border: none;
-    background: none;
-    width: 0px;
-    subcontrol-position: left;
-    subcontrol-origin: margin;
 }
 
 QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical,
@@ -199,131 +184,156 @@ QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
     background: none;
 }
 
-QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
-    background: none;
-}
-
-
-
 /* Slider Styles */
 QSlider::groove:horizontal {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #D3D3D3;  /* Light gray border */
     height: 8px;
-    background: #ffffff;
+    background: #F5F5F5;  /* Off-white background */
     margin: 2px 0;
     border-radius: 4px;
 }
 QSlider::handle:horizontal {
-    background: #ffffff;
-    border: 1px solid #d7d7d7;
+    background: #018af6;  /* Blue handle */
+    border: 1px solid #018af6;
     width: 14px;
     margin: -2px 0;
     border-radius: 7px;
 }
 QSlider::handle:horizontal:hover {
-    background: #b7b7b7;
+    background: #66B3FF;  /* Lighter blue on hover */
 }
 QSlider::handle:horizontal:pressed {
-    background: #c7c7c7;
+    background: #0066CC;  /* Darker blue when pressed */
 }
 QSlider::add-page:horizontal {
-    background: #e7e7e7;
-    border: 1px solid #d7d7d7;
+    background: #E6F0FF;  /* Light blue fill */
+    border: 1px solid #D3D3D3;
     height: 8px;
     border-radius: 4px;
 }
 
 /* TabWidget and TabBar Styles */
 QTabWidget {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #D3D3D3;  /* Light gray border */
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;  /* White background */
 }
 
 QTabWidget::pane {
-    border-top: 1px solid #C2C7CB;  /* Light gray color, good for white mode */
+    border-top: 1px solid #D3D3D3;  /* Light gray separator */
 }
 
-
 QTabBar::tab {
-    background: #f5f5f5;
-    border: 1px solid #d7d7d7;
+    background: #F5F5F5;  /* Off-white background */
+    border: 1px solid #D3D3D3;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     min-width: 8ex;
     padding: 2px;
+    color: #333333;  /* Dark text */
 }
 QTabBar::tab:selected, QTabBar::tab:hover {
-    background: #ffffff;
+    background: #018af6;  /* Blue for selected/hover */
+    color: #FFFFFF;  /* White text */
 }
 QTabBar::tab:selected {
-    border-color: #9B9B9B;
-    border-bottom-color: #C2C7CB; /* Separator effect */
+    border-color: #0066CC;  /* Darker blue border */
+    border-bottom-color: #FFFFFF;  /* Match pane background */
 }
 QTabBar::tab:!selected {
-    margin-top: 2px; /* Unselected tabs are slightly raised */
+    margin-top: 2px;  /* Unselected tabs raised */
 }
 
 /* ToolBar Styles */
 QToolBar {
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #d7d7d7;
+    background-color: #F5F5F5;  /* Off-white background */
+    border-bottom: 1px solid #D3D3D3;  /* Light gray border */
     padding: 5px;
 }
 QToolBar::item:hover {
-    background-color: #e7e7e7;
+    background-color: #E6F0FF;  /* Light blue hover */
 }
 QToolBar::item:pressed {
-    background-color: #d7d7d7;
+    background-color: #CCE0FF;  /* Slightly darker blue */
 }
 
 /* Other Widget Styles */
 QLineEdit, QTextEdit, QAudioWidget {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #D3D3D3;  /* Light gray border */
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
 }
 QLineEdit:hover, QTextEdit:hover {
-    border: 1px solid #a2a9b1;
+    border: 1px solid #66B3FF;  /* Light blue hover */
 }
 QLineEdit:focus {
-    border: 1px solid #56CCF2;
+    border: 1px solid #018af6;  /* Blue focus */
 }
 
 QTreeWidget {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #D3D3D3;  /* Light gray border */
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
 }
 
+QTreeWidget::item:selected {
+    background-color: #66B3FF;  /* Light blue selection */
+    color: #FFFFFF;  /* White text */
+}
 
 /* Action Styles */
 QAction {
-    padding: px 10px;
-    border: 1px solid #ced4da;
+    padding: 5px 10px;
+    border: 1px solid #D3D3D3;  /* Light gray border */
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
 }
 QAction:hover {
-    background-color: #f5f5f5;
-    border: 1px solid #a2a9b1;
+    background-color: #E6F0FF;  /* Light blue hover */
+    border: 1px solid #66B3FF;  /* Light blue border */
 }
 QAction:pressed {
-    background-color: #e7e7e7;
-    border: 1px solid #56CCF2;
+    background-color: #CCE0FF;  /* Slightly darker blue */
+    border: 1px solid #018af6;  /* Blue border */
 }
 
 QGroupBox {
     border-radius: 4px;
+    color: #333333;  /* Dark text */
 }
 
+/* Additional Styles for Consistency */
+QHeaderView::section {
+    background-color: #F5F5F5;  /* Off-white background */
+    color: #333333;  /* Dark text */
+    padding: 5px;
+    border-style: none;
+    border-bottom: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+}
+QHeaderView::section:horizontal {
+    border-top: 1px solid #D3D3D3;
+}
+QHeaderView::section:vertical {
+    border-left: 1px solid #D3D3D3;
+}
+
+/* Highlighting Selected Items */
+QTableWidget::item:selected, QListWidget::item:selected {
+    background-color: #66B3FF;  /* Light blue selection */
+    color: #FFFFFF;  /* White text */
+}
 
 #exportButton {
-    border: 1px solid #ced4da;
+    border: 1px solid #018af6;  /* Blue border */
     border-radius: 2px;
-    padding: 5px 30px 5px 5px; /* Adjust right padding to push text more to the left */
-    background-color: #ffffff;
-    width: 60px; /* Adjust width as necessary to fit text and menu arrow */
+    padding: 5px 30px 5px 5px;
+    background-color: #FFFFFF;  /* White background */
+    color: #018af6;  /* Blue text */
+    width: 60px;
 }
 
 #exportButton::menu-button {
@@ -331,82 +341,141 @@ QGroupBox {
     subcontrol-position: top right;
     width: 25px;
     border-left-width: 1px;
-    border-left-color: #ced4da;
+    border-left-color: #018af6;
     border-left-style: solid;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
+    background-color: #E6F0FF;  /* Light blue */
 }
 
 #exportButton::menu-button:hover {
-    background-color: #ced4da;
+    background-color: #CCE0FF;  /* Slightly darker blue */
 }
 
 #exportButton::menu-arrow {
     image: url('Icons/icons8-dropdown-48.png');
-    width: 16px;  /* Adjust the width of the image */
-    height: 16px;  /* Adjust the height of the image */
+    width: 16px;
+    height: 16px;
 }
 
+QLabel {
+    background-color: transparent;  /* Transparent background */
+}
 
-
-
-/* General styles for all QTableWidgets, QTreeWidgets, and QListWidgets in light theme */
-QTableWidget, QTreeWidget, QListWidget {
-    gridline-color: #D3D3D3;  /* Light gridline color */
+/* Styles specifically for listingTable QTableWidget */
+#listingTable {
+    gridline-color: #D3D3D3;  /* Light gray gridlines */
     font-size: 12px;
-    background-color: #F5F5F5;  /* Light background for tables */
-    color: #000000;  /* Dark text color */
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
 }
 
-/* Table items */
+#listingTable::item {
+    padding: 5px;
+    color: #333333;
+    background-color: #F5F5F5;  /* Off-white rows */
+}
+
+#listingTable::item:selected {
+    background-color: #66B3FF;  /* Light blue selection */
+}
+
+#listingTable QHeaderView::section {
+    background-color: #018af6;  /* Blue header */
+    color: #FFFFFF;  /* White text */
+    padding: 5px;
+    border-style: none;
+    border-bottom: 1px solid #0066CC;
+    border-right: 1px solid #0066CC;
+}
+
+#listingTable QHeaderView::section:horizontal {
+    border-top: 1px solid #0066CC;
+}
+
+#listingTable QHeaderView::section:vertical {
+    border-left: 1px solid #0066CC;
+}
+
+/* QMenu Styles */
+QMenu {
+    background-color: #FFFFFF;  /* White background */
+    border: 1px solid #D3D3D3;  /* Light gray border */
+    color: #333333;  /* Dark text */
+}
+
+QMenu::item {
+    padding: 5px 20px;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+QMenu::item:hover {
+    background-color: #E6F0FF;  /* Light blue hover */
+    color: #333333;
+}
+
+QMenu::item:selected {
+    background-color: #018af6;  /* Blue selection */
+    color: #FFFFFF;  /* White text */
+}
+
+/* General styles for all QTableWidgets */
+QTableWidget, QTreeWidget, QListWidget {
+    gridline-color: #D3D3D3;  /* Light gray gridlines */
+    font-size: 12px;
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
+}
+
 QTableWidget::item, QTreeWidget::item, QListWidget::item {
     padding: 5px;
-    color: #000000;  /* Dark text color */
-    background-color: #FFFFFF;  /* White background for table rows */
+    color: #333333;
+    background-color: #F5F5F5;  /* Off-white rows */
 }
 
 QTableWidget::item:selected, QTreeWidget::item:selected, QListWidget::item:selected {
-    background-color: #CCE8FF;  /* Light blue highlight for selected items */
+    background-color: #66B3FF;  /* Light blue selection */
 }
 
 /* Header styles for all tables and trees */
 QHeaderView::section {
-    background-color: #E0E0E0;  /* Light gray header background */
-    color: #000000;  /* Dark text color */
+    background-color: #018af6;  /* Blue header */
+    color: #FFFFFF;  /* White text */
     padding: 5px;
     border-style: none;
-    border-bottom: 1px solid #D3D3D3;
-    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #0066CC;
+    border-right: 1px solid #0066CC;
 }
 
 QHeaderView::section:horizontal {
-    border-top: 1px solid #D3D3D3;
+    border-top: 1px solid #0066CC;
 }
 
 QHeaderView::section:vertical {
-    border-left: 1px solid #D3D3D3;
+    border-left: 1px solid #0066CC;
 }
 
-/* Set the alternating row colors for better visibility */
+/* Alternating row colors */
 QTableWidget, QTreeWidget, QListWidget {
-    alternate-background-color: #F0F0F0;  /* Light gray for alternating rows */
+    alternate-background-color: #E6F0FF;  /* Light blue alternating rows */
 }
 
 /* Vertical header (row numbers) */
 QHeaderView::section:vertical {
-    background-color: #F5F5F5;  /* Same color as table background */
-    color: #000000;  /* Dark text color */
+    background-color: #FFFFFF;  /* White background */
+    color: #333333;  /* Dark text */
 }
 
-/* Styles for scrollbars in light theme */
+/* Scrollbar styles */
 QScrollBar:vertical, QScrollBar:horizontal {
-    background: #E0E0E0;  /* Light background for scrollbars */
+    background: #F5F5F5;  /* Off-white background */
     width: 10px;
     height: 10px;
 }
 
 QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-    background: #B0B0B0;  /* Scroll handle color */
+    background: #018af6;  /* Blue handle */
     border-radius: 5px;
 }
 
@@ -422,30 +491,15 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
     background: none;
 }
 
-/* Vertical header style for row numbers */
-QHeaderView::section:vertical {
-    background-color: #F5F5F5;  /* Match the table background */
-}
-
-/* Styles specifically for lists and tree items in light theme */
-QListWidget, QTreeWidget::item {
-    background-color: #FFFFFF;  /* White background for rows */
-    color: #000000;  /* Dark text color */
-}
-
-QListWidget::item:selected, QTreeWidget::item:selected {
-    background-color: #CCE8FF;  /* Light blue highlight for selected items */
-}
-
 #softwareInfoLabel {
-    font-size: 16pt;             /* Slightly larger font for the main title */
+    font-size: 16pt;
     font-weight: bold;
-    color: #333333;              /* Dark text color */
-    padding: 10px 0;             /* Add some vertical padding */
+    color: #018af6;  /* Blue text */
+    padding: 10px 0;
 }
 
 #subtitleLabel {
     font-size: 12pt;
-    color: #666666;              /* Medium gray for the subtitle */
-    padding: 5px 0;              /* Add a little space around the subtitle */
+    color: #666666;  /* Medium gray for subtitle */
+    padding: 5px 0;
 }

@@ -1,0 +1,6 @@
+Computed MD5: 8458a8904d3b30a979f52dedc9e696a8
+Computed SHA1: 82fc61bdad01d4481c6eee17d4503685ae863bb3
+Computed SHA256: 30398d26666aab3637f2867f7716e935a55b1312c4b56199b9ce52c390ea8026
+
+Size: 1539309568 bytes (1468.00 MB)
+Path: /home/landry/Downloads/BlissBass_GO-x86_64-2023101123.iso

@@ -16,7 +16,7 @@ from PySide6.QtWidgets import QListWidget, QListWidgetItem, QToolBar, QSizePolic
     QCheckBox, QHeaderView
 from PySide6.QtWidgets import QMenu
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QTableWidget, QTableWidgetItem, QPushButton, QLabel, QTabWidget
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 from pdf2image import convert_from_path
 
 
