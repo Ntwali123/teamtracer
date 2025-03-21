@@ -8,43 +8,48 @@
   <img src="Icons/logo_prev_ui.png" alt="Shadow Hunter Logo" width="300"/>
 </p>
 
-## 🔍 Navigation  
-- [Preview](#preview)  
-- [Features](#features)  
-- [Screenshots](#screenshots)  
-- [Supported Image Formats](#supported-image-formats)  
-- [Tested File Systems](#tested-file-systems)  
-- [Cross-Platform Compatibility](#cross-platform-compatibility)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Configuration](#configuration)  
-  - [Running the Tool](#running-the-tool)  
-- [Built With](#built-with)  
-- [Work in Progress](#work-in-progress)  
-- [Testing & Feedback](#testing--feedback)  
-- [Contributing](#contributing)  
-- [Socials](#socials)  
+## Navigation 🧭
 
----
+- [Preview 👀](#preview-)
+- [Features 🌟](#features-)
+- [Screenshots 📸](#screenshots-)
+- [Supported Image Formats 💾](#supported-image-formats-)
+- [Tested File Systems 🗂️](#tested-file-systems-%EF%B8%8F)
+- [Cross-Platform Compatibility 🖥️💻](#cross-platform-compatibility-%EF%B8%8F)
+- [Getting Started 🚀](#getting-started-)
+  - [Prerequisites 🛠️](#prerequisites-)
+  - [Configuration ⚙️](#configuration-%EF%B8%8F)
+  - [Running the Tool ▶️](#running-the-tool-%EF%B8%8F)
+- [Built With 🧱](#built-with-)
+- [Work in Progress 🛠️](#work-in-progress-)
+- [Testing & Feedback 🧪](#testing--feedback-)
+- [Contributing 🤝](#contributing-)
+- [Socials 👨‍💻](#socials-)
 
-## 📌 Preview  
-<p align="center">
-  <img src="Icons/readme/Preview_Dark.png" alt="Shadow Hunter Preview" width="100%"/>
-</p>
+## Contributors 👥
 
----
+Special thanks to our contributors who helped improve **Shadow Hunter**:
 
-## 🌟 Features  
-✅ **Image Mounting** (Windows only)  
-✅ **Tree Viewer** - Navigate disk structures  
-✅ **Detailed File Analysis** - HEX, text, metadata  
-✅ **EXIF Data Extraction**  
-✅ **Registry Viewer**  
-✅ **Basic File Carving**  
-✅ **VirusTotal API Integration**  
-✅ **E01 Image Verification**  
-✅ **Convert E01 to Raw**  
-✅ **Message Decoding** (Base64, binary, etc.)  
+- **[@ntwali123](https://github.com/ntwali123)** : *FrontEnd Dev*
+- **[@asimwe1](https://github.com/asimwe1)** : *Python Dev*
+- **[@kai-lucky72](https://github.com/kai-lucky72)** : *CyberSecurity*
+
+## Preview 👀      [⬆️]\(#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
+
+<img src="Icons/logo.png" />
+
+## Features 🌟      [⬆️]\(#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
+
+✅ \***Image Mounting**: Mount forensic disk images. (Windows only) \
+✅ **Tree Viewer**: Navigate through the disk image structure, including partitions and files.\
+✅ **Detailed File Analysis**: View file content in different formats, such as HEX, text, and application-specific views.\
+✅ **EXIF Data Extraction**: Extract and display EXIF metadata from photos.\
+✅ **Registry Viewer**: View and examine Windows registry files.\
+✅ **Basic File Carving**: Recover deleted files from disk images.\
+✅ **Virus Total API Integration**: Check files for malware using the Virus Total API.\
+✅ **E01 Image Verification**: Verify the integrity of E01 disk images.\
+✅ **Convert E01 to Raw**: Convert E01 disk images to raw format.\
+✅ **Message Decoding**: Decode messages from base64, binary, and other encodings.
 
 ---
 
@@ -93,6 +98,8 @@ If you see **"Microsoft Visual C++ 14.0 or greater is required"**, install [C++ 
 ```bash
 pip install -r requirements.txt
 ```
+<p>It is better if ran in python virtual environment</p>
+
 #### **macOS - Apple Silicon**  
 ```bash
 python3.11 -m venv venv
