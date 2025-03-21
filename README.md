@@ -174,7 +174,11 @@ chmod +x install_macos_silicon.sh
 ./install_macos_silicon.sh
  ```
 **This script will:**
+<<<<<<< HEAD
 - Check if Homebrew is installed and offer to install it if it's not.
+=======
+- Check if Homebrew is installed and offer to install it if it’s not.
+>>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
 - Install necessary system dependencies (ffmpeg and poppler) using Homebrew.
 - Install all Python dependencies specified in requirements_macos_silicon.txt using pip.
 
@@ -233,13 +237,22 @@ python main.py
 
 ## Contributing 🤝 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
 
+<<<<<<< HEAD
 I welcome contributions from the community to help improve TRACE! If you're interested in contributing, here's how you can get involved:
+=======
+I welcome contributions from the community to help improve TRACE! If you're interested in contributing, here’s how you can get involved:
+>>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
 
 ### How to Contribute
 
 1. **Report Issues**: If you find any bugs or have suggestions for improvements, please [open an issue](https://github.com/Gadzhovski/TRACE-Forensic-Toolkit/issues) on GitHub. Provide as much detail as possible to help address the issue effectively.
+<<<<<<< HEAD
 2. **Submit a Pull Request**: If you have a fix or feature you'd like to contribute, please [fork the repository](https://github.com/Gadzhovski/TRACE-Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
 3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool's compatibility and robustness. You can share these samples by [contacting me](https://gadzhovski.com/).
+=======
+2. **Submit a Pull Request**: If you have a fix or feature you’d like to contribute, please [fork the repository](https://github.com/Gadzhovski/TRACE-Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
+3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool’s compatibility and robustness. You can share these samples by [contacting me](https://gadzhovski.com/).
+>>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
 4. **Review and Feedback**: Review the changes submitted by others and provide feedback to help refine and enhance the tool.
 
 
@@ -251,4 +264,10 @@ I welcome contributions from the community to help improve TRACE! If you're inte
 <br>
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+<<<<<<< HEAD
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+=======
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+
+>>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
