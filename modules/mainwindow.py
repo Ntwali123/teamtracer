@@ -9,9 +9,9 @@ from PySide6.QtWidgets import (QMainWindow, QMenuBar, QMenu, QToolBar, QDockWidg
                                QDialog, QVBoxLayout, QInputDialog, QDialogButtonBox, QHeaderView, QLabel, QLineEdit,
                                QFormLayout, QApplication)
 
-from managers.database_manager import DatabaseManager
-from managers.evidence_utils import ImageHandler
-from managers.image_manager import ImageManager
+from services.database_service import DatabaseManager
+from services.evidence_utils import ImageHandler
+from services.image_service import ImageManager
 from modules.about import AboutDialog
 from modules.converter import Main
 from modules.exif_tab import ExifViewer

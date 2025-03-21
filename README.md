@@ -54,39 +54,9 @@
 
 ## Screenshots 📸 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
-### Registry Browser 🗂️
-
-<p>
-  <br/>
-  <img src="Icons/readme/registry.png" alt="Registry Browser" width="90%"/>
-  <br/>
-</p>
-
-
-### File Carving 🔪
-
-<p>
-  <br/>
-  <img src="Icons/readme/carving.png" alt="File Carving" width="90%"/>
-  <br/>
-</p>
-
-### File Search 🔍
-<p>
-  <br/>
-  <img src="Icons/readme/file_search.png" alt="Image Verification" width="80%"/>
-  <br/>
-</p>
-
-### Image Verification ✅
-
-<p>
-  <br/>
-  <img src="Icons/readme/Shadow Hunter _verify.png" alt="Image Verification" width="70%"/>
-  <br/>
-</p>
-
-<br>
+| Registry Browser 🗂️ | File Carving 🔪 | File Search 🔍 | Image Verification ✅ |
+|----------------------|---------------|---------------|-----------------------|
+| <p><img src="Icons/icons8-registry-editor-96.png" alt="Registry Browser" width="50px"/></p> | <p><img src="Icons/icons8-carving-64.png" alt="File Carving" width="50px"/></p> | <p><img src="Icons/icons8-search-in-browser-50.png" alt="File Search" width="50px"/></p> | <p><img src="Icons/icons8-verify-blue.png" alt="Image Verification" width="50px"/></p> |
 
 
 
@@ -107,8 +77,8 @@
 | File System | Tested |
 |-------------|--------|
 | NTFS        | ✔️     |
-| FAT32       |        |
-| exFAT       |        |
+| FAT32       | ✔️     |
+| exFAT       | ✔️     |
 | HFS+        |        |
 | APFS        |        |
 | EXT2,3,4    |        |
@@ -116,15 +86,14 @@
 <br>
 
 
-## Cross-Platform Compatibility 💻🖥️  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
+## Cross-Platform Compatibility 💻🖥️  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-shadow-hunter)
 
 | Operating System                   | Screenshot                                                                                                           |
-|------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| **macOS Sonoma** 🍏                | <a href="Icons/readme/macos.png"><img src="Icons/readme/macos.png" alt="macOS Screenshot" width="900"/></a>          |
-| **Kali Linux 2024** 🐧             | <a href="Icons/readme/kali.png"><img src="Icons/readme/kali.png" alt="Kali Linux Screenshot" width="900"/></a>       |
-| **\*WSL2 - Ubuntu 22.04.3 LTS** 🐧 | <a href="Icons/readme/wsl3.png"><img src="Icons/readme/wsl3.png" alt="Kali Linux Screenshot" width="900"/></a>        |
-| **Windows 10** 🗔                  | <a href="Icons/readme/windows10.png"><img src="Icons/readme/windows10.png" alt="Windows Screenshot" width="900"/></a> |
-
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **macOS Sonoma** 🍏                | <a href="https://upload.wikimedia.org/wikipedia/commons/2/24/MacOS_Sonoma_wordmark.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/MacOS_Sonoma_wordmark.svg" alt="macOS Sonoma Logo" width="900"/></a> |
+| **Kali Linux 2024** 🐧             | <a href="https://www.kali.org/images/kali-logo.svg"><img src="https://www.kali.org/images/kali-logo.svg" alt="Kali Linux Screenshot" width="100px"/></a> |
+| **\*WSL2 - Ubuntu 22.04.3 LTS** 🐧 | <a href="https://upload.wikimedia.org/wikipedia/commons/a/af/Ubuntu-logo-2022.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Ubuntu-logo-2022.svg" alt="WSL2 Ubuntu Screenshot" width="900"/></a> |
+| **Windows 10** 🗔                  | <a href="https://upload.wikimedia.org/wikipedia/commons/3/3b/Windows_10_Logo.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Windows_10_Logo.svg" alt="Windows Screenshot" width="900"/></a> |
 
 
 ## Getting Started 🚀 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
@@ -174,11 +143,7 @@ chmod +x install_macos_silicon.sh
 ./install_macos_silicon.sh
  ```
 **This script will:**
-<<<<<<< HEAD
-- Check if Homebrew is installed and offer to install it if it's not.
-=======
 - Check if Homebrew is installed and offer to install it if it’s not.
->>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
 - Install necessary system dependencies (ffmpeg and poppler) using Homebrew.
 - Install all Python dependencies specified in requirements_macos_silicon.txt using pip.
 
@@ -237,37 +202,22 @@ python main.py
 
 ## Contributing 🤝 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
-<<<<<<< HEAD
-I welcome contributions from the community to help improve Shadow Hunter ! If you're interested in contributing, here's how you can get involved:
-=======
 I welcome contributions from the community to help improve Shadow Hunter ! If you're interested in contributing, here’s how you can get involved:
->>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
 
 ### How to Contribute
 
-1. **Report Issues**: If you find any bugs or have suggestions for improvements, please [open an issue](https://github.com/ntwali123/Shadow Hunter -Forensic-Toolkit/issues) on GitHub. Provide as much detail as possible to help address the issue effectively.
-<<<<<<< HEAD
-2. **Submit a Pull Request**: If you have a fix or feature you'd like to contribute, please [fork the repository](https://github.com/ntwali123/Shadow Hunter -Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
-3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool's compatibility and robustness. You can share these samples by [contacting me](https://ntwali123.com/).
-=======
-2. **Submit a Pull Request**: If you have a fix or feature you’d like to contribute, please [fork the repository](https://github.com/ntwali123/Shadow Hunter -Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
-3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool’s compatibility and robustness. You can share these samples by [contacting me](https://ntwali123.com/).
->>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
+1. **Report Issues**: If you find any bugs or have suggestions for improvements, please [open an issue](https://github.com/ntwali123/teamtracer -Forensic-Toolkit/issues) on GitHub. Provide as much detail as possible to help address the issue effectively.
+2. **Submit a Pull Request**: If you have a fix or feature you'd like to contribute, please [fork the repository](https://github.com/ntwali123/teamtracer -Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
+3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool's compatibility and robustness. You can share these samples by [contacting me](landryasimwe@gmail.com/).
 4. **Review and Feedback**: Review the changes submitted by others and provide feedback to help refine and enhance the tool.
 
 
-## Socials 👨‍💻 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
+## Socials 👨‍💻 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️]
+toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter 
 
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Shadow-ntwali123)
 
 <br>
 
 ![Version](https://img.shields.io/badge/version-1.8.2-blue.svg)
-<<<<<<< HEAD
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 =======
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-
->>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697

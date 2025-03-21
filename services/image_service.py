@@ -47,7 +47,7 @@ class ImageManager(QThread):
         """Mount image on Windows using Arsenal Image Mounter."""
         try:
             subprocess.Popen([
-                'tools/Arsenal-Image-Mounter-v3.10.257/aim_cli.exe',
+                'tools/Arsenal-Image-Mounter/aim_cli.exe',
                 '--mount',
                 '--readonly',
                 '--filename=' + self.image_path
@@ -199,7 +199,7 @@ class ImageManager(QThread):
         """Dismount image on Windows using Arsenal Image Mounter."""
         try:
             subprocess.run([
-                'tools/Arsenal-Image-Mounter-v3.10.257/aim_cli.exe',
+                'tools/Arsenal-Image-Mounter/aim_cli.exe',
                 '--dismount'
             ], check=True)
             self.operationCompleted.emit(True, "Image was dismounted successfully.")
