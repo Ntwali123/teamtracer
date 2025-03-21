@@ -7,11 +7,11 @@ QWidget {
 
 /* Button Styles */
 QPushButton {
-    border: 1px solid #018af6;  /* Blue border */
+    border: 1px solid #0066cc;  /* Blue border */
     border-radius: 2px;
     padding: 5px 15px;
     background-color: #FFFFFF;  /* White background */
-    color: #018af6;  /* Blue text */
+    color: #0066cc;  /* Blue text */
     margin-left: 8px;
     margin-right: 8px;
 }
@@ -33,7 +33,7 @@ QCheckBox::indicator {
     border-radius: 6px;
 }
 QCheckBox::indicator:unchecked {
-    border: 1px solid #018af6;  /* Blue border */
+    border: 1px solid #0066cc;  /* Blue border */
     background-color: #FFFFFF;  /* White background */
 }
 QCheckBox::indicator:checked {
@@ -42,7 +42,7 @@ QCheckBox::indicator:checked {
 
 /* ComboBox Styles */
 QComboBox {
-    border: 1px solid #018af6;  /* Blue border */
+    border: 1px solid #0066cc;  /* Blue border */
     border-radius: 2px;
     padding: 5px 10px;
     background-color: #FFFFFF;  /* White background */
@@ -54,7 +54,7 @@ QComboBox::drop-down {
     subcontrol-position: top right;
     width: 25px;
     border-left-width: 1px;
-    border-left-color: #018af6;
+    border-left-color: #0066cc;
     border-left-style: solid;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -79,7 +79,7 @@ QDockWidget {
     background-color: #F5F5F5;  /* Off-white background */
 }
 QDockWidget::title {
-    background: #018af6;  /* Blue title bar */
+    background: #0066cc;  /* Blue title bar */
     padding: 1px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -123,11 +123,11 @@ QMenuBar::item {
     color: #333333;  /* Dark text */
 }
 QMenuBar::item:selected {
-    background-color: #018af6;  /* Blue selection */
+    background-color: #0066cc;  /* Blue selection */
     color: #FFFFFF;  /* White text */
 }
 QMenuBar::item:pressed {
-    background-color: #0066CC;  /* Darker blue when pressed */
+    background-color: #0066cc;  /* Darker blue when pressed */
 }
 
 /* MessageBox Styles */
@@ -146,7 +146,7 @@ QScrollBar:vertical {
     border-radius: 0px;
 }
 QScrollBar::handle:vertical {
-    background: #018af6;  /* Blue handle */
+    background: #0066cc;  /* Blue handle */
     min-height: 20px;
     border-radius: 5px;
 }
@@ -164,7 +164,7 @@ QScrollBar:horizontal {
     border-radius: 0px;
 }
 QScrollBar::handle:horizontal {
-    background: #018af6;  /* Blue handle */
+    background: #0066cc;  /* Blue handle */
     min-width: 20px;
     border-radius: 5px;
 }
@@ -193,8 +193,8 @@ QSlider::groove:horizontal {
     border-radius: 4px;
 }
 QSlider::handle:horizontal {
-    background: #018af6;  /* Blue handle */
-    border: 1px solid #018af6;
+    background: #0066cc;  /* Blue handle */
+    border: 1px solid #0066cc;
     width: 14px;
     margin: -2px 0;
     border-radius: 7px;
@@ -203,7 +203,7 @@ QSlider::handle:horizontal:hover {
     background: #66B3FF;  /* Lighter blue on hover */
 }
 QSlider::handle:horizontal:pressed {
-    background: #0066CC;  /* Darker blue when pressed */
+    background: #0066cc;  /* Darker blue when pressed */
 }
 QSlider::add-page:horizontal {
     background: #E6F0FF;  /* Light blue fill */
@@ -233,11 +233,11 @@ QTabBar::tab {
     color: #333333;  /* Dark text */
 }
 QTabBar::tab:selected, QTabBar::tab:hover {
-    background: #018af6;  /* Blue for selected/hover */
+    background: #0066cc;  /* Blue for selected/hover */
     color: #FFFFFF;  /* White text */
 }
 QTabBar::tab:selected {
-    border-color: #0066CC;  /* Darker blue border */
+    border-color: #0066cc;  /* Darker blue border */
     border-bottom-color: #FFFFFF;  /* Match pane background */
 }
 QTabBar::tab:!selected {
@@ -268,7 +268,7 @@ QLineEdit:hover, QTextEdit:hover {
     border: 1px solid #66B3FF;  /* Light blue hover */
 }
 QLineEdit:focus {
-    border: 1px solid #018af6;  /* Blue focus */
+    border: 1px solid #0066cc;  /* Blue focus */
 }
 
 QTreeWidget {
@@ -297,7 +297,7 @@ QAction:hover {
 }
 QAction:pressed {
     background-color: #CCE0FF;  /* Slightly darker blue */
-    border: 1px solid #018af6;  /* Blue border */
+    border: 1px solid #0066cc;  /* Blue border */
 }
 
 QGroupBox {
@@ -328,11 +328,11 @@ QTableWidget::item:selected, QListWidget::item:selected {
 }
 
 #exportButton {
-    border: 1px solid #018af6;  /* Blue border */
+    border: 1px solid #0066cc;  /* Blue border */
     border-radius: 2px;
     padding: 5px 30px 5px 5px;
     background-color: #FFFFFF;  /* White background */
-    color: #018af6;  /* Blue text */
+    color: #0066cc;  /* Blue text */
     width: 60px;
 }
 
@@ -341,7 +341,7 @@ QTableWidget::item:selected, QListWidget::item:selected {
     subcontrol-position: top right;
     width: 25px;
     border-left-width: 1px;
-    border-left-color: #018af6;
+    border-left-color: #0066cc;
     border-left-style: solid;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -381,20 +381,20 @@ QLabel {
 }
 
 #listingTable QHeaderView::section {
-    background-color: #018af6;  /* Blue header */
+    background-color: #0066cc;  /* Blue header */
     color: #FFFFFF;  /* White text */
     padding: 5px;
     border-style: none;
-    border-bottom: 1px solid #0066CC;
-    border-right: 1px solid #0066CC;
+    border-bottom: 1px solid #0066cc;
+    border-right: 1px solid #0066cc;
 }
 
 #listingTable QHeaderView::section:horizontal {
-    border-top: 1px solid #0066CC;
+    border-top: 1px solid #0066cc;
 }
 
 #listingTable QHeaderView::section:vertical {
-    border-left: 1px solid #0066CC;
+    border-left: 1px solid #0066cc;
 }
 
 /* QMenu Styles */
@@ -416,7 +416,7 @@ QMenu::item:hover {
 }
 
 QMenu::item:selected {
-    background-color: #018af6;  /* Blue selection */
+    background-color: #0066cc;  /* Blue selection */
     color: #FFFFFF;  /* White text */
 }
 
@@ -440,20 +440,20 @@ QTableWidget::item:selected, QTreeWidget::item:selected, QListWidget::item:selec
 
 /* Header styles for all tables and trees */
 QHeaderView::section {
-    background-color: #018af6;  /* Blue header */
+    background-color: #0066cc;  /* Blue header */
     color: #FFFFFF;  /* White text */
     padding: 5px;
     border-style: none;
-    border-bottom: 1px solid #0066CC;
-    border-right: 1px solid #0066CC;
+    border-bottom: 1px solid #0066cc;
+    border-right: 1px solid #0066cc;
 }
 
 QHeaderView::section:horizontal {
-    border-top: 1px solid #0066CC;
+    border-top: 1px solid #0066cc;
 }
 
 QHeaderView::section:vertical {
-    border-left: 1px solid #0066CC;
+    border-left: 1px solid #0066cc;
 }
 
 /* Alternating row colors */
@@ -475,7 +475,7 @@ QScrollBar:vertical, QScrollBar:horizontal {
 }
 
 QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
-    background: #018af6;  /* Blue handle */
+    background: #0066cc;  /* Blue handle */
     border-radius: 5px;
 }
 
@@ -494,7 +494,7 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
 #softwareInfoLabel {
     font-size: 16pt;
     font-weight: bold;
-    color: #018af6;  /* Blue text */
+    color: #0066cc;  /* Blue text */
     padding: 10px 0;
 }
 

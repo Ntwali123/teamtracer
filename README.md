@@ -1,11 +1,11 @@
-<h1 align="center">Toolkit for Retrieval and Analysis of Cyber Evidence (TRACE)</h1>
+<h1 align="center">Toolkit for Retrieval and Analysis of Cyber Evidence (Shadow Hunter)</h1>
 
 <p align="center">
-  TRACE is a digital forensic tool I developed as my final year project. It provides an intuitive interface for analyzing disk images and includes a range of functionalities to assist forensic examiners in extracting and viewing the contents of various image file formats.
+  Shadow Hunter is a digital forensic tool I developed as my final year project. It provides an intuitive interface for analyzing disk images and includes a range of functionalities to assist forensic examiners in extracting and viewing the contents of various image file formats.
 </p>
 
 <p align="center">
-  <img src="Icons/logo_prev_ui.png" alt="TRACE Logo" width="400"/>
+  <img src="Icons/logo_prev_ui.png" alt="Shadow Hunter Logo" width="400"/>
 </p>
 
 ## Navigation 🧭 
@@ -27,17 +27,17 @@
 - [Socials 👨‍💻](#socials-)
 
 
-## Preview 👀 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Preview 👀 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 <p>
   <br/>
-  <img src="Icons/readme/Preview_Dark.png" alt="TRACE Preview" width="100%"/>
+  <img src="Icons/readme/Preview_Dark.png" alt="Shadow Hunter Preview" width="100%"/>
   <br/>
 </p>
 
 <br>
 
-## Features 🌟 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Features 🌟 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 ✅ ***Image Mounting**: Mount forensic disk images. (Windows only) \
 ✅ **Tree Viewer**: Navigate through the disk image structure, including partitions and files.\
@@ -52,7 +52,7 @@
 
 <br>
 
-## Screenshots 📸 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Screenshots 📸 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 ### Registry Browser 🗂️
 
@@ -82,7 +82,7 @@
 
 <p>
   <br/>
-  <img src="Icons/readme/trace_verify.png" alt="Image Verification" width="70%"/>
+  <img src="Icons/readme/Shadow Hunter _verify.png" alt="Image Verification" width="70%"/>
   <br/>
 </p>
 
@@ -90,7 +90,7 @@
 
 
 
-## Supported Image Formats 💾 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Supported Image Formats 💾 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 | Image Format                                   | Extensions             | Split   |  Unsplit |
 |------------------------------------------------|------------------------|---------|----------|
@@ -102,7 +102,7 @@
 
 <br>
 
-## Tested File Systems 🗂️ &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Tested File Systems 🗂️ &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 | File System | Tested |
 |-------------|--------|
@@ -116,7 +116,7 @@
 <br>
 
 
-## Cross-Platform Compatibility 💻🖥️  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Cross-Platform Compatibility 💻🖥️  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 | Operating System                   | Screenshot                                                                                                           |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -127,7 +127,7 @@
 
 
 
-## Getting Started 🚀 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Getting Started 🚀 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 ### Prerequisites 🔧
 
@@ -212,7 +212,7 @@ python main.py
 ```
 <br>
 
-## Built With 🧱  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Built With 🧱  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 - [pytsk3](https://pypi.org/project/pytsk3/) - Python bindings for the SleuthKit
 - [libewf-python](https://github.com/libyal/libewf) - Library to access the Expert Witness Compression Format (EWF)
@@ -220,7 +220,7 @@ python main.py
 - [Arsenal Image Mounter](https://arsenalrecon.com/products/image-mounter/) - For mounting forensic disk images.
 
 
-## Work in Progress 🧑‍🔧  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Work in Progress 🧑‍🔧  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 - **Direct Video/Audio Playback**: Currently, the video and audio player saves files temporarily before playing them, which can cause delays. The goal is to enable direct playback for faster performance.
 - **Integrated File Search and Viewer**: The file search functionality is not yet connected to the "Viewer Tab," which displays HEX, text, application-specific views, metadata, and other details. This integration needs to be implemented.
@@ -228,42 +228,42 @@ python main.py
 - **File Carving and Viewer Integration**: The file carving functionality is not yet connected to the "Viewer Tab," where users can view HEX, text, application-specific views, and metadata. Additionally, the current file carving process does not distinguish between deleted and non-deleted files; it will "carve" all files of the selected type from the disk image.
 - **Color Issues in Dark Mode**: The software currently has some colour display issues on Linux and macOS systems when using dark mode. Certain UI elements may not be clearly visible or may appear incorrectly.
 
-## Testing & Feedback 🧪  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Testing & Feedback 🧪  &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 - **Tested Formats**: The tool has primarily been tested with `dd` and `E01` files. While these formats are well-supported, additional testing with other formats, such as `Ex01`, `Lx01`, `s01`, and others, is needed.
 - **Tested File Systems**: Currently, the tool has only been tested on the NTFS file system. Testing on additional file systems like FAT32, exFAT, HFS+, APFS, EXT4, and others is needed to ensure broader compatibility.
 - **Call for Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool's compatibility and robustness.
 - **Feedback Welcome**: Please report any issues or unexpected behaviour to help improve the tool. Contributions and testing feedback are encouraged and welcomed.
 
-## Contributing 🤝 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Contributing 🤝 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 <<<<<<< HEAD
-I welcome contributions from the community to help improve TRACE! If you're interested in contributing, here's how you can get involved:
+I welcome contributions from the community to help improve Shadow Hunter ! If you're interested in contributing, here's how you can get involved:
 =======
-I welcome contributions from the community to help improve TRACE! If you're interested in contributing, here’s how you can get involved:
+I welcome contributions from the community to help improve Shadow Hunter ! If you're interested in contributing, here’s how you can get involved:
 >>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
 
 ### How to Contribute
 
-1. **Report Issues**: If you find any bugs or have suggestions for improvements, please [open an issue](https://github.com/Gadzhovski/TRACE-Forensic-Toolkit/issues) on GitHub. Provide as much detail as possible to help address the issue effectively.
+1. **Report Issues**: If you find any bugs or have suggestions for improvements, please [open an issue](https://github.com/ntwali123/Shadow Hunter -Forensic-Toolkit/issues) on GitHub. Provide as much detail as possible to help address the issue effectively.
 <<<<<<< HEAD
-2. **Submit a Pull Request**: If you have a fix or feature you'd like to contribute, please [fork the repository](https://github.com/Gadzhovski/TRACE-Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
-3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool's compatibility and robustness. You can share these samples by [contacting me](https://gadzhovski.com/).
+2. **Submit a Pull Request**: If you have a fix or feature you'd like to contribute, please [fork the repository](https://github.com/ntwali123/Shadow Hunter -Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
+3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool's compatibility and robustness. You can share these samples by [contacting me](https://ntwali123.com/).
 =======
-2. **Submit a Pull Request**: If you have a fix or feature you’d like to contribute, please [fork the repository](https://github.com/Gadzhovski/TRACE-Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
-3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool’s compatibility and robustness. You can share these samples by [contacting me](https://gadzhovski.com/).
+2. **Submit a Pull Request**: If you have a fix or feature you’d like to contribute, please [fork the repository](https://github.com/ntwali123/Shadow Hunter -Forensic-Toolkit/fork), make your changes, and submit a pull request. Ensure your code adheres to the coding standards and includes tests where applicable.
+3. **Provide Testing Samples**: If you have disk images in formats that are less tested (`Ex01`, `Lx01`, `s01`, etc.), your contributions would be greatly appreciated to help improve the tool’s compatibility and robustness. You can share these samples by [contacting me](https://ntwali123.com/).
 >>>>>>> 5e9ab9b5b1406504fb0e06a2ed59bf6bf33ef697
 4. **Review and Feedback**: Review the changes submitted by others and provide feedback to help refine and enhance the tool.
 
 
-## Socials 👨‍💻 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-trace)
+## Socials 👨‍💻 &nbsp;&nbsp;&nbsp;&nbsp; [⬆️](#toolkit-for-retrieval-and-analysis-of-cyber-evidence-Shadow Hunter )
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/radoslav-gadzhovski)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Shadow-ntwali123)
 
 <br>
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.8.2-blue.svg)
 <<<<<<< HEAD
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 =======

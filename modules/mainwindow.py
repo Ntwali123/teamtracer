@@ -59,12 +59,12 @@ class MainWindow(QMainWindow):
         self.initialize_ui()
 
     def initialize_ui(self):
-        self.setWindowTitle('Trace 1.0.1')
+        self.setWindowTitle('Shadow Hunter 1.8.2')
         self.setWindowIcon(QIcon('Icons/logo_prev_ui.png'))
 
         if os.name == 'nt':
             import ctypes
-            myappid = 'Trace'
+            myappid = 'Shadow Hunter '
             ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
         self.setGeometry(100, 100, 1200, 800)

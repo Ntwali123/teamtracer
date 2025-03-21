@@ -20,14 +20,14 @@ class VerificationWidget(QWidget):
     def __init__(self, image_handler, parent=None):
         super().__init__(parent)
         self.image_handler = image_handler
-        self.setWindowTitle("Trace - Image Verification")
+        self.setWindowTitle("Shadow Hunter - Image Verification")
         self.setWindowIcon(QIcon('Icons/logo.png'))
         self.setGeometry(100, 100, 750, 400)  # Adjust size for better layout
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(20, 20, 20, 20)
 
-        self.software_info = QLabel("Trace - Forensic Analysis Tool", self)
+        self.software_info = QLabel("Shadow Hunter - Forensic Analysis Tool", self)
         self.software_info.setObjectName("softwareInfoLabel")
         layout.addWidget(self.software_info)
 

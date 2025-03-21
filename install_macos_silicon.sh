@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting the installation process for TRACE-Forensic-Toolkit on macOS M1..."
+echo "Starting the installation process for Shadow Hunter-Forensic-Toolkit on macOS M1..."
 
 # Check for Homebrew installation
 if ! command -v brew &> /dev/null

@@ -1757,7 +1757,7 @@ They cannot be displayed from 'icat', but the known layout is given
 in 'istat'.
 
 07/18/04: Bug Fix: Sometimes, 'icat' would report an error about an
-existing FILLER entry in an NTFS attribute.  This was traced to
+existing FILLER entry in an NTFS attribute.  This was Hunted to
 instances when it was run on a non-base file record.  There is now
 a check for that to not show the error. (BUG: 993459)
 

@@ -7,7 +7,7 @@ class AboutDialog(QDialog):
     def __init__(self, parent=None):
         super(AboutDialog, self).__init__(parent)
 
-        self.setWindowTitle("About Trace")
+        self.setWindowTitle("About Shadow Hunter")
         layout = QVBoxLayout(self)
 
         # Load and scale the logo
@@ -20,17 +20,17 @@ class AboutDialog(QDialog):
         layout.addWidget(logo)
 
         # Software information
-        title_label = QLabel("Trace - Toolkit for Retrieval and Analysis of Cyber Evidence")
+        title_label = QLabel("Shadow Hunter - Toolkit for Retrieval and Analysis of Cyber Evidence")
         title_label.setAlignment(Qt.AlignCenter)
         title_label.setFont(QFont('Arial', 20, QFont.Bold))  # Set the font, size, and weight
         title_label.setPalette(QPalette(QColor('blue')))  # Set the text color
         layout.addWidget(title_label)
 
-        version_label = QLabel("Version 1.0.0")
+        version_label = QLabel("Version 1.8.2")
         version_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(version_label)
 
-        author_label = QLabel("Author: Radoslav Gadzhovski")
+        author_label = QLabel("Author: Shadow Hunters")
         author_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(author_label)
 
